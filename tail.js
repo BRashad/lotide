@@ -6,9 +6,11 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+const tail = function(tail) {
+  return tail.slice(1)
+}
 
-//TEST CODE
-assertEqual('LightHouse Labs', 'Bootcamp');
-assertEqual(1, 1);
-assertEqual(1, "adas");
-
+// Test Case: Check the original array 
+const words = ["Yo Yo", "Lighthouse", "Labs"];
+tail(words); // no need to capture the return value since we are not checking it
+assertEqual(words.length, 3); // original array should still have 3 elements!
