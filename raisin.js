@@ -2,11 +2,11 @@ const raisinAlarm = function(cookie) {
   // Put your solution here
   let result = "All good!";
 
-  for (let snack of cookie) {
+  for(let snack of cookie){
 
-    if (snack === "🍇") {
+    if(snack === "🍇"){
       return "Raisin alert!";
-    }
+    } 
   }
   return result;
 };
