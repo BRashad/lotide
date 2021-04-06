@@ -10,7 +10,7 @@ const loopyLighthouse = (range, multiples, words) => {
       console.log(words[0]);
     }else if(i % multiples[1] === 0){
       console.log(words[1]);
-    }else {i % multiples[0] === 2){
+    }else if (i % multiples[0] === 2){
       console.log(i);
     }   
   }

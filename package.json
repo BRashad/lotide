@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@brashad/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Set of JavaScripit helper function with specific algorithms",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
